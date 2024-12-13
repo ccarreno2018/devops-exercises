@@ -44,4 +44,4 @@ jobs:
           mesheryToken: ${{ secrets.MESHERY_TOKEN }}
           prNumber: ${{ env.PULL_NO }}
           application_type: Kubernetes Manifest
-          filePath: ${{ inputs.fileName == '' && 'topics/kubernetes/exercises/kustomize_common_labels/someApp/deployment.yml' || inputs.fileName }}
+          filePath: ${{ inputs.fileName == '' && 'topics/kubernetes/exercises/kustomize_common_labels/someApp/service.yml' || inputs.fileName }}
